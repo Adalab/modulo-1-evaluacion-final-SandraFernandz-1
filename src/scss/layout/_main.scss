@@ -10,6 +10,7 @@
 }
 
 .article {
+  position: relative;
   border: 2px solid black;
   text-align: left;
   font-size: 14px;
@@ -17,5 +18,8 @@
   font-family: "RobotoSlab-Bold";
 }
 .purchase {
+  position: relative;
+  top: 0px;
   border: 2px solid red;
+  height: 300px;
 }
