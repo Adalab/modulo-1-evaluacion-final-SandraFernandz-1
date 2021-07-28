@@ -5,3 +5,12 @@
 @import "layout/header";
 @import "layout/footer";
 @import "pages/index";
+.main {
+  position: absolute;
+  height: 500px;
+  width: 100vw;
+  top: 200px;
+  background-color: red;
+  z-index: -1;
+  text-align: center;
+}
