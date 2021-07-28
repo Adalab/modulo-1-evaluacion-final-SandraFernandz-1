@@ -22,7 +22,7 @@ ul {
   justify-content: center;
   align-items: center;
   background-color: skyblue;
-  height: 200px;
+  height: 268px;
   width: 100vw;
   margin-top: 0;
   text-align: center;
@@ -30,4 +30,18 @@ ul {
 .title {
   font-family: "RobotoSlab";
   z-index: 1;
+}
+.title1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  line-height: 55px;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.title2 {
+  font-family: "Roboto";
+  color: white;
+  font-size: 16px;
 }
