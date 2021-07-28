@@ -1,10 +1,8 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-# Evaluación Final Módulo 1
+# Final Exam Module 1- Sandra Fernández
 
-de Sandra Fernández
-
-En esta evaluación estamos usando el Web Starter Kit facilitado por Adalab. Estas son algunas informaciones relacionadas con él:
+In this exam we are using the Adalab Starter Kit. Please notice, description of how it works is in Spanish:
 
 ## Guía de inicio rápido
 
