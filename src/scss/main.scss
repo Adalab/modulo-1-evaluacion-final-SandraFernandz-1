@@ -4,36 +4,37 @@
 @import "components/links";
 @import "layout/header";
 @import "layout/footer";
-@import "pages/index";
 
 .main {
-  position: absolute;
-  height: 400px;
+  /*position: absolute;*/
+  position: relative;
+  height: 300px;
   width: 100vw;
-  top: 400px;
+  // top: 50px;
   background-color: rgb(158, 186, 172);
-  z-index: -1;
+  // z-index: -1;
   text-align: center;
+  
 }
 
 .article {
   border: 2px solid black;
   text-align: left;
   font-size: 14px;
-  line-height: 30px;
-  margin: 100px 15px 0px 15px;
-}
+  line-height: 30px 15px 0px 15px;
+ 
 .purchase {
   border: 2px solid red;
 }
 
 .footer {
-  position: absolute;
+  position: relative;
+
   background-color: slateblue;
   display: flex;
+margin-top: 0px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  bottom: 0px;
 }
