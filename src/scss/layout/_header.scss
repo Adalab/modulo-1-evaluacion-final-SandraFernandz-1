@@ -1,19 +1,48 @@
-.header-image {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  box-sizing: border-box;
+  /*background-image: url();*/
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  height: 500px;
+  width: 100%;
+}
+/*.title {
   background-image: url("./assets/images/cover.jpg");
   position: fixed;
+
   top: 0px;
   height: 568px;
-  max-width: 320px;
+  width: auto;
+  text-align: center;
 }
+*/
 .title1 {
-  position: absolute;
   z-index: 1;
-  color: yellow;
+  color: white;
   font-size: 40px;
   font-family: "RobotoSlab";
   text-transform: uppercase;
   font-size: 42px;
-  text-align: center;
   font-weight: bold;
   width: 10ch;
 }
