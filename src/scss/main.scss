@@ -26,3 +26,14 @@
 .purchase {
   border: 2px solid red;
 }
+
+.footer {
+  position: absolute;
+  background-color: slateblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  bottom: 0px;
+}
