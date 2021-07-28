@@ -14,9 +14,8 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .header {
-  box-sizing: border-box;
-  /*background-image: url();*/
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -24,27 +23,9 @@ ul {
   align-items: center;
   background-color: skyblue;
   height: 500px;
-  width: 100%;
+  width: 100vw;
 }
-/*.title {
-  background-image: url("./assets/images/cover.jpg");
-  position: fixed;
-
-  top: 0px;
-  height: 568px;
-  width: auto;
-  text-align: center;
-}
-*/
-.title1 {
-  z-index: 1;
-  color: white;
-  font-size: 40px;
+.title {
   font-family: "RobotoSlab";
-  text-transform: uppercase;
-  font-size: 42px;
-  font-weight: bold;
-  width: 10ch;
-}
-title2 {
+  z-index: 1;
 }
