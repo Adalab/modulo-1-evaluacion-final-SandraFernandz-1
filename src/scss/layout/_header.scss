@@ -83,3 +83,8 @@ ul {
   line-height: 44px;
   position: fixed;
 }
+@media screen and all(min-width: 780px) {
+  h1 {
+    font-size: 80px;
+  }
+}
