@@ -7,7 +7,7 @@
   background-color: white;
   // z-index: -1;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 .insomnia {
   font-family: "Roboto-Regular";
@@ -39,17 +39,22 @@
   font-family: "Roboto-Regular";
   font-size: 18px;
   line-height: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .article {
   position: relative;
   text-align: left;
-  margin: 30px 15px 0px 15px;
+  margin: 15px 20px 15px 20px;
   padding: 15px;
+  box-sizing: border-box;
 }
 
 .purchase {
   position: relative;
+  padding: 15px;
   top: 0px;
   border: 2px solid red;
   height: 300px;
