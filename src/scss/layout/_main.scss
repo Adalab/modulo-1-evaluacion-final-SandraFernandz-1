@@ -15,16 +15,35 @@
   line-height: 30px;
 }
 .header3 {
+  font-family: "RobotoSlab-Bold";
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  margin: 1px 60px 15p 60px;
+}
+
+.button {
+  width: 76px;
+  height: 45px;
+  border: 2px #f26002 solid;
+  color: #f26002;
+  padding: 0 25px 0 26px;
+  margin-top: 30px;
+  border-radius: 22.5px;
+  background-color: white;
+}
+/*está dentro de article, se podría anidar con ben*/
+.text {
+  color: #4a4a4a;
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .article {
   position: relative;
-  border: 2px solid black;
   text-align: left;
-  font-size: 18px;
-  line-height: 30px;
   margin: 30px 15px 0px 15px;
-  font-family: "RobotoSlab-Bold";
   padding: 15px;
 }
 
