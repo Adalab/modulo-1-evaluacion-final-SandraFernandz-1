@@ -21,23 +21,29 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // background-color: skyblue;
-  // background-image: url("./assets/images/cover.jpg");
-  // height: 568px;
-  // width: 100vw;
+  background-image: url("./assets/images/cover.jpg");
+  height: 100vw;
+  width: auto;
 
   margin-top: 0;
   text-align: center;
 }
 
 .header-image {
+  width: 100vw;
+  height: 100vh;
+}
+/*
+.header-image {
   // height: 100%;
   // width: auto;
   width: 100vw;
-  height: 560px;
-  background-size: fill;
+  height: 568px;
 }
-
+.image {
+  max-width: 100%;
+}
+*/
 .title {
   position: absolute;
   font-family: "RobotoSlab";
