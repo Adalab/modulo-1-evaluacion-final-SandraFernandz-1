@@ -1,13 +1,30 @@
 .footer {
   position: relative;
-  background-color: slateblue;
+  background-color: #304268;
   display: flex;
-  margin-top: 0px;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 300px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+}
+
+.recommendations {
+  margin-top: 60px;
+}
+
+.social {
+  margin-top: 30px;
 }
 /*  width: 320px;
   height: 465px;
