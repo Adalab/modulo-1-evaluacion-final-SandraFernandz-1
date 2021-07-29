@@ -63,3 +63,26 @@ ul {
   text-decoration: none;
   font-size: 16px;
 }
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+  .footer-arrow {
+    transform: translate(-780%, -55px);
+    position: absolute;
+  }
+  .final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 25px;
+  }
+  .social {
+  }
+}
