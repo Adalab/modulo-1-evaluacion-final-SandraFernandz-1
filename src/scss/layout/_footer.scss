@@ -14,14 +14,14 @@
   width: 45px;
   font-size: 24px;
   background-color: white;
-  // display: inline-block;
   box-shadow: 0 2px 4px 0;
   align-content: center;
-  transform: translate(3%, -25px);
+  transform: translate(-25px);
   text-align: center;
   line-height: 50px;
-  position: relative;
   border-radius: 50%;
+  position: relative;
+  transform: translate(8%, -25px);
 }
 ul {
   list-style: none;
@@ -67,22 +67,39 @@ ul {
   .footer {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-end;
     align-items: center;
     padding-bottom: 30px;
     text-align: left;
   }
+  .options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
   .footer-arrow {
-    transform: translate(-780%, -55px);
+    transform: translate(20%, -55px);
     position: absolute;
+    display: inline;
   }
   .final {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: flex-start;
     padding-left: 25px;
   }
   .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+    margin-left: auto;
+  }
+
+  .link {
+    text-align: left;
+    padding-right: 60px;
   }
 }
