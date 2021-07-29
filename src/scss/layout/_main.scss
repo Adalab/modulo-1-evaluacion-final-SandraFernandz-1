@@ -10,7 +10,7 @@
   margin-top: 100px;
 }
 .insomnia {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   color: #8ccbea;
   font-size: 14px;
   line-height: 30px;
@@ -36,11 +36,12 @@
   margin-top: 30px;
   border-radius: 22.5px;
   background-color: white;
+  font-family: "Roboto", sans-serif;
 }
 /*está dentro de article, se podría anidar con ben*/
 .text {
   color: #4a4a4a;
-  font-family: "Roboto-Regular";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 30px;
   margin-left: 15px;
