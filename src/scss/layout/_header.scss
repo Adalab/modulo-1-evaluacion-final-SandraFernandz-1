@@ -23,10 +23,19 @@ ul {
   align-items: center;
   // background-color: skyblue;
   // background-image: url("./assets/images/cover.jpg");
-  height: 568px;
-  width: 100vw;
+  // height: 568px;
+  // width: 100vw;
+
   margin-top: 0;
   text-align: center;
+}
+
+.header-image {
+  // height: 100%;
+  // width: auto;
+  width: 100vw;
+  height: 560px;
+  background-size: fill;
 }
 
 .title {
