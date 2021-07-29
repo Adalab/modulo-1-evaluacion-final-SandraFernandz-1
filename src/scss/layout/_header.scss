@@ -16,7 +16,6 @@ ul {
 }
 
 .header {
-  // position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +23,6 @@ ul {
   background-image: url("./assets/images/cover.jpg");
   height: 100vw;
   width: auto;
-
   margin-top: 0;
   text-align: center;
 }
@@ -39,9 +37,6 @@ ul {
   // width: auto;
   width: 100vw;
   height: 568px;
-}
-.image {
-  max-width: 100%;
 }
 */
 .title {
