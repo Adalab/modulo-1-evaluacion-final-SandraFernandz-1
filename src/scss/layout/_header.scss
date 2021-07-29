@@ -60,12 +60,13 @@ ul {
   line-height: 45px;
 }
 .menu-icon {
-  background-color: blue;
+  background-color: #0271bc;
   display: inline-block;
   top: 0px;
   left: 0px;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
+  height: 44px;
+  width: 44px;
+  /*centra las hamburgesas en contenedor azul*/
+  line-height: 44px;
   position: fixed;
 }
