@@ -8,13 +8,14 @@
   width: 100vw;
   text-transform: uppercase;
 }
-.footer-arrow {
-  height: 50px;
-  width: 50px;
-  color: pink;
-  position: absolute;
-  z-index: 1;
+.footer-icon {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
   display: inline-block;
+  align-content: center;
+  transform: translate(-150px);
+  line-height: 50px;
 }
 ul {
   list-style: none;
