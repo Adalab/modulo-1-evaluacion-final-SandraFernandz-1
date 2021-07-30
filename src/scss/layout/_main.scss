@@ -1,14 +1,14 @@
 .main {
-  /*position: absolute;*/
   position: relative;
   height: auto;
-  width: 100vw;
-
-  // top: 50px;
+  width: 100%;
+  border: 3px solid olivedrab;
   background-color: white;
   // z-index: -1;
   text-align: center;
-  margin-top: 100px;
+}
+a:link {
+  text-decoration: none;
 }
 .container {
   margin: 0 10px;
@@ -30,17 +30,35 @@
   margin-left: 15px;
   text-transform: capitalize;
 }
-
-.button {
+.button1 {
   width: 76px;
   height: 45px;
   border: 2px #f26002 solid;
   color: #f26002;
   padding: 0 25px 0 26px;
   margin-top: 30px;
+  line-height: 45px;
   border-radius: 22.5px;
   background-color: white;
   font-family: $font-main;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  width: 184px;
+  height: 45px;
+  border: 2px #f26002 solid;
+  color: white;
+  line-height: 45px;
+  border-radius: 22.5px;
+  background-color: #f26002;
+  font-family: $font-main;
+  align-content: center;
+  left: 50%;
 }
 /*está dentro de article, se podría anidar con ben*/
 .text {
@@ -67,9 +85,13 @@
   padding: 15px;
   top: 0px;
   border: 2px solid red;
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
+.ice-blue {
+  background-color: #eff9ff;
+}
+
 .reasons {
   margin: 0px 20px;
   font-family: "Roboto Slab", serif;

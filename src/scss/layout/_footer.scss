@@ -1,7 +1,6 @@
 .footer {
   // position: relative;
   background-color: #304268;
-  //
   width: 100vw;
   height: auto;
   text-transform: uppercase;
@@ -26,8 +25,8 @@
   line-height: 50px;
   border-radius: 50%;
   position: absolute;
-  display: inline-block;
-  transform: translate(350%, -20px);
+  left: 50%;
+  transform: translateY(-50%);
 }
 ul {
   list-style: none;
