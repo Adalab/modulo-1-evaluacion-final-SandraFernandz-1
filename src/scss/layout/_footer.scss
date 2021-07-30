@@ -1,5 +1,4 @@
 .footer {
-  // position: relative;
   background-color: #304268;
   width: 100%;
   height: auto;
@@ -20,13 +19,11 @@
   font-size: 24px;
   background-color: white;
   box-shadow: 0 2px 4px 0;
-  align-content: center;
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  position: absolute;
-  left: 50%;
   transform: translateY(-50%);
+  margin: 0 auto 0 auto;
 }
 ul {
   list-style: none;
