@@ -75,6 +75,7 @@ ul {
     padding-bottom: 45px;
     text-align: left;
   }
+
   .options {
     display: flex;
     flex-direction: row;
@@ -88,6 +89,7 @@ ul {
     align-items: flex-start;
     padding-left: 25px;
   }
+
   .social {
     display: flex;
     flex-direction: column;
@@ -96,15 +98,15 @@ ul {
     text-align: right;
     margin-left: auto;
   }
-
   .link {
     text-align: left;
     padding-right: 60px;
   }
+}
 
-@media all and (min-width: 1200px){
+@media all and (min-width: 1200px) {
   .nav {
-  padding-left: 200px;
-  padding-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
