@@ -1,12 +1,19 @@
 .footer {
   // position: relative;
   background-color: #304268;
-  padding: 39px 45px 39px 45px;
+  //
   width: 100vw;
   height: auto;
   text-transform: uppercase;
   font-family: "Roboto-Regular";
-  box-sizing: border-box;
+}
+
+.nav {
+  padding: 39px 45px 39px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .footer-arrow {
   height: 45px;
@@ -20,7 +27,7 @@
   border-radius: 50%;
   position: absolute;
   display: inline-block;
-  transform: translate(50%, -5px);
+  transform: translate(350%, -20px);
 }
 ul {
   list-style: none;
@@ -63,7 +70,7 @@ ul {
   font-size: 16px;
 }
 @media screen and (min-width: 768px) {
-  .footer {
+  .nav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-end;
@@ -76,11 +83,14 @@ ul {
     flex-direction: row;
     justify-content: space-around;
   }
+  /*  revisar la posición en media
   .footer-arrow {
-    transform: translate(20%, -55px);
+ 
+    transform: translate(50%, -55px);
     position: absolute;
     display: inline;
   }
+  */
   .final {
     display: flex;
     flex-direction: column;
