@@ -34,10 +34,6 @@ ul {
   text-align: center;
 }
 
-.recommendations {
-  margin-top: 60px;
-}
-
 .social {
   // margin-top: 30px;
   // margin-right: 123px;
@@ -74,7 +70,7 @@ ul {
   .nav {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-end;
+    justify-content: center;
     align-items: center;
     padding-bottom: 45px;
     text-align: left;
@@ -104,5 +100,11 @@ ul {
   .link {
     text-align: left;
     padding-right: 60px;
+  }
+
+@media all and (min-width: 1200px){
+  .nav {
+  padding-left: 200px;
+  padding-right: 200px;
   }
 }
