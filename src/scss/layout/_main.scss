@@ -50,13 +50,16 @@
   width: 184px;
   height: 45px;
   border: 2px #f26002 solid;
-  color: white;
   line-height: 45px;
   border-radius: 22.5px;
   background-color: #f26002;
   font-family: $font-main;
   align-content: center;
   margin: auto;
+  color: white;
+  & a:visited {
+    color: white;
+  }
 }
 /*está dentro de article, se podría anidar con ben*/
 .text {
