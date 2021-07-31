@@ -42,7 +42,7 @@ ul {
   color: white;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 284px;
+  margin-top: 230px;
   word-spacing: 250px;
 }
 
@@ -73,10 +73,9 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .title1 {
-    margin-top: 284px;
-    font-size: 80px;
-    line-height: 160%;
-    word-spacing: 33300px;
+    margin-top: 150px;
+    font-size: 70px;
+    word-spacing: 3300px;
     text-align: center;
   }
   .title2 {
@@ -87,8 +86,5 @@ ul {
   .titel1 {
     font-size: 100px;
     margin-top: 384px;
-  }
-  .title2 {
-    font-size: 24px;
   }
 }
