@@ -2,7 +2,9 @@
 
 # Final Exam Module 1- Sandra Fernández
 
-In this exam we are using the Adalab Starter Kit. Please notice, description of how it works is in Spanish:
+In this exam we are using the Adalab Starter Kit. It consists of the creation of a Web Page, mirroring a given example in Zeplin. I have used HTML, CSS, and some nesting in order to reproduce the original. The Adalab Web Starter Kit uses SASS and Gulp among others to help automatise coding tasks.
+
+Please, find below a description of how it works. The text description is in Spanish:
 
 ## Guía de inicio rápido
 
