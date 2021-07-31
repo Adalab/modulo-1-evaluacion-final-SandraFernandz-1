@@ -111,15 +111,14 @@
   border: 2px #f26002 solid;
   line-height: 45px;
   border-radius: 22.5px;
+  padding: 0 25px 0 26px;
   background-color: #f26002;
   font-family: $font-main;
   align-content: center;
   margin-top: 45px;
   margin-bottom: 50px;
   color: white;
-  & a:visited {
-    color: white;
-  }
+  text-decoration: none;
 }
 
 .article {
@@ -142,7 +141,20 @@
 
 a:link {
   text-decoration: none;
+  // &.button-link {
+  //   a:link {
+  //     color: white;
+  //   }
+  // }
 }
+
+.button-link {
+  color: white;
+  &a:visited {
+    color: white;
+  }
+}
+
 .purchase {
   position: relative;
   top: 0px;
