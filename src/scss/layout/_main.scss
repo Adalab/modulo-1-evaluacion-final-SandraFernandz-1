@@ -150,9 +150,13 @@
   }
 }
 
-a:link {
+a {
   text-decoration: none;
+  &:hover {
+    color: black;
+  }
 }
+
 .purchase {
   position: relative;
   top: 0px;
