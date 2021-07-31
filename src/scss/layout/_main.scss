@@ -141,11 +141,6 @@
 
 a:link {
   text-decoration: none;
-  // &.button-link {
-  //   a:link {
-  //     color: white;
-  //   }
-  // }
 }
 
 .button-link {
@@ -229,8 +224,9 @@ a:link {
 
 @media all and (min-width: 1200px) {
   .button1 {
-    width: 160px;
+    width: 160p;
   }
+
   .article {
     margin-left: 276px;
     margin-right: 276px;
