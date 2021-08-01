@@ -1,6 +1,10 @@
 # Final Exam Module 1- Sandra Fernández
 
-In this exam we are using the Adalab Starter Kit. It consists of the creation of a Web Page, mirroring a given example in Zeplin. I have used HTML, CSS, and some nesting in order to reproduce the original. The Adalab Web Starter Kit uses SASS and Gulp among others to help automatise coding tasks.
+In this exam we are using the Adalab Starter Kit, which helps automatise steps in the process of programming.
+
+The exam had as goal to create a Web Page, mirroring a given example in Zeplin and working under the concept of mobile first. Versions for tablet and desktop were also created. I used Grid, Flexbox and other resources in order to structure and design the web. The main structure is written using HTML and styling it CSS, besides applying some nesting.
+
+The Adalab Web Starter Kit uses SASS, npm, js.node and Gulp among others programs in order to help automatise coding tasks as already mentioned.
 
 Please, find below a description of how it works. The text description is in Spanish:
 
