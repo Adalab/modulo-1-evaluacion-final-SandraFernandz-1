@@ -205,18 +205,18 @@ a {
   }
 
   .purchase-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5fr;
+    // display: grid;
+    // grid-template-columns: 1fr;
+    // grid-template-rows: 5fr;
     grid-template-areas: "subheader subheader subheader" "submain1 submain2 submain3" "subfooter subfooter subfooter";
     gap: 10px;
   }
 
   .purchase-corpus {
-    display: flex;
+    // display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    // align-items: center;
     align-content: center;
   }
 
@@ -236,7 +236,7 @@ a {
   }
   .button2-style {
     width: 210px;
-    height: 45px;
+    // height: 45px;
     margin-bottom: 60px;
   }
 }
