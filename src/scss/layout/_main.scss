@@ -33,13 +33,13 @@
     width: 76px;
     height: 45px;
     border: 2px #f26002 solid;
-    color: #f26002;
+    color: white;
     padding: 0 25px 0 26px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 15px;
     line-height: 45px;
     border-radius: 22.5px;
-    background-color: white;
+    background-color: #f26002;
     font-family: $font-main;
     align-content: center;
     display: flex;
@@ -193,6 +193,11 @@ a {
       margin-top: 46px;
       width: 91px;
     }
+  }
+
+  .reverse-order {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .text {

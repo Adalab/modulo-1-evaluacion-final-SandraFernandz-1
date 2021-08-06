@@ -59,6 +59,7 @@ ul {
   border-radius: 45%;
   line-height: 45px;
   transform: translateY(60px);
+  display: none;
 }
 .menu-icon {
   background-color: #0271bc;
@@ -80,6 +81,10 @@ ul {
   }
   .title2 {
     font-size: 24px;
+  }
+
+  .icon {
+    display: block;
   }
 }
 @media screen and (min-width: 1200px) {
