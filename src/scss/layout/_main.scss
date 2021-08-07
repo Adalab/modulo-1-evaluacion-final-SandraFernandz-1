@@ -132,6 +132,16 @@
   }
 }
 
+// transición
+
+// .button1-link {
+//   color: #f26002;
+//    transition: color ease 1s;
+//   &:hover {
+//     color: black;
+//    }
+//  }
+
 .article {
   position: relative;
   text-align: left;
@@ -149,11 +159,14 @@
     text-align: left;
   }
 }
-
+// transition
 a {
   text-decoration: none;
-  &:hover {
-    color: black;
+  .button1-link {
+    color: blue;
+    &:hover {
+      transition: color ease 1s;
+    }
   }
 }
 
@@ -195,10 +208,10 @@ a {
     }
   }
 
-  .reverse-order {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+  // .reverse-order {
+  //   display: flex;
+  //   flex-direction: column-reverse;
+  // }
 
   .text {
     margin-top: 30px;
