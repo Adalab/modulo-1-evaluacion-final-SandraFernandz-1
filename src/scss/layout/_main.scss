@@ -46,7 +46,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: background-color ease 1s;
   }
+  & .button1:hover {
+    background-color: green;
+  }
+
   & .text {
     margin-top: 15px;
     font-family: "Roboto", sans-serif;
@@ -160,14 +165,9 @@
   }
 }
 // transition
+
 a {
   text-decoration: none;
-  .button1-link {
-    color: blue;
-    &:hover {
-      transition: color ease 1s;
-    }
-  }
 }
 
 .purchase {
