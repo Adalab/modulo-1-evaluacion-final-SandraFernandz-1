@@ -6,7 +6,7 @@ The exam had as goal to create a Web Page, mirroring a given example in Zeplin a
 
 The Adalab Web Starter Kit uses SASS, npm, js.node and Gulp among others programs in order to help automatise coding tasks as already mentioned.
 
-Please, find below a description of how it works. The text description is in Spanish:
+Please, find below a description of how it works. The description is in Spanish:
 
 ## Guía de inicio rápido
 
